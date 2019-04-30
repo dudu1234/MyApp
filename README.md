@@ -10,5 +10,3 @@ In order to run client code:
 2) >npm install
 3) >ng serve
 4) Open chrome on localhost:4200
-
-zz
