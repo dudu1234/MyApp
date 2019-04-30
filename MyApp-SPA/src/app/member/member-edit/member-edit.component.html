@@ -1,0 +1,50 @@
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-sm-4 header">
+      <h1>Your Profile</h1>
+    </div>
+    <div class="col-sm-8">
+      <div *ngIf="editForm.dirty" class="alert alert-info">
+        <strong>Information:</strong> You have made changes. Any unsaved changes
+        will be lost!
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <form #editForm="ngForm" (ngSubmit)="updateUser()">
+      <label for="userName">User Name</label>
+      <input type="text" name="userName" [(ngModel)]="user.userName" disabled />
+
+      <label for="gender">Gender</label>
+      <input type="text" name="gender" [(ngModel)]="user.gender" />
+
+      <label for="age">Age</label>
+      <input type="text" name="age" [(ngModel)]="user.age" disabled />
+
+      <label for="phone">Phone</label>
+      <input type="text" name="phone" [(ngModel)]="user.phone" />
+
+      <label for="email">Email</label>
+      <input type="text" name="email" [(ngModel)]="user.email" />
+
+      <label for="address">Address</label>
+      <textarea name="address" rows="3" [(ngModel)]="user.address"></textarea>
+
+      <label for="city">City</label>
+      <input type="text" name="city" [(ngModel)]="user.city" />
+
+      <label for="country">Country</label>
+      <input type="text" name="country" [(ngModel)]="user.country" />
+
+      <label for="dateCreated">Date Created</label>
+      <input type="text" name="dateCreated" [(ngModel)]="user.dateCreated" disabled />
+
+      <div class="actions">
+        <button [disabled]="!editForm.dirty" class="btn btn-success save">
+          Save
+        </button>
+        <a class="btn btn-light cancel" (click)="cancel()">Cancel</a>
+      </div>
+    </form>
+  </div>
+</div>

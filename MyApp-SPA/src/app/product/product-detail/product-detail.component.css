@@ -1,0 +1,36 @@
+.container {
+    margin: auto;
+    max-width: 600px;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 40px;
+}
+
+.box {
+}
+
+.image-box {
+  grid-column: 1;
+  grid-row: 1 / 4;
+}
+.title-box {
+  font-size: 1.5em;
+  grid-column: 2;
+  grid-row: 1;
+}
+.price-box {
+  font-size: 2em;
+  font-weight: bold;
+  grid-column: 2;
+  grid-row: 2;
+}
+.details-box {
+  grid-column: 2;
+  grid-row: 3;
+}
+.actions-box {
+  grid-column: 2;
+  grid-row: 4;
+}

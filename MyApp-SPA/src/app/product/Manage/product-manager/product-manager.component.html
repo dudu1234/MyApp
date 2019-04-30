@@ -1,0 +1,43 @@
+<div class="page">
+  <div class="row">
+    <h2>Product Manager</h2>
+  </div>
+  <span>Search: </span>
+  <input
+    class="form-control"
+    type="text"
+    [(ngModel)]="searchTest"
+    name="searchTest"
+    class="searchTest"
+  />
+  <div class="row product-list">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Category</th>
+          <th scope="col">Name</th>
+          <th scope="col">Title</th>
+          <th scope="col">Description</th>
+          <th scope="col">Price</th>
+          <th scope="col">Status</th>
+          <th scope="col">Big Image</th>
+          <th scope="col">Small Image</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let product of products | productTableFilter:searchTest">
+          <th scope="row">{{ product.id }}</th>
+          <td>{{ product.productCategory?.name }}</td>
+          <td>{{ product.name }}</td>
+          <td>{{ product.title }}</td>
+          <td>{{ product.description }}</td>
+          <td>{{ product.price }}</td>
+          <td>{{ product.status | enumToText: ProductStatus }}</td>
+          <td>{{ product.bigImage | removeImgPrefix }}</td>
+          <td>{{ product.smallImage | removeImgPrefix }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

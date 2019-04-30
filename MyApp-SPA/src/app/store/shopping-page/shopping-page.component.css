@@ -1,0 +1,15 @@
+.products-wrapper {
+  display: grid;
+  grid-gap: 0px;
+  grid-template: 90% 300px;
+  padding: 12px;
+}
+
+.products-box {
+  grid-column: 1;
+  grid-row: 1;
+}
+.order-box {
+  grid-column: 2;
+  grid-row: 1;
+}

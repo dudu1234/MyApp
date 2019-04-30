@@ -1,0 +1,165 @@
+[
+    {
+      "Name": "Fruits",
+      "Products": [
+        {
+          "Name": "Banana",
+          "SmallImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/banana.jpeg",
+          "BigImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/banana.jpeg",
+          "Title": "Yellow organic banana",
+          "Description": "High amount of vitamin B6 and moderate amounts of other vitamins and minerals",
+          "Price": 8.5,
+          "Status": 1
+        },
+        {
+          "Name": "Watermelon",
+          "SmallImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/watermelon.jpeg",
+          "BigImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/watermelon.jpeg",
+          "Title": "Personal Watermelon",
+          "Description": "In-store purchase only",
+          "Price": 10,
+          "Status": 1
+        },
+        {
+          "Name": "Fresh Red Grapes",
+          "SmallImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/Grapes.jpeg",
+          "BigImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/Grapes.jpeg",
+          "Title": "Fresh Red Seedless Grapes",
+          "Description": "32 oz",
+          "Price": 10,
+          "Status": 1
+        },
+        {
+          "Name": "melon",
+          "SmallImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/melon.jpeg",
+          "BigImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/melon.jpeg",
+          "Title": "Cantaloupe, each",
+          "Description": "Price for in-store purchase only. In stock at San Leandro, 15555 Hesperian Blvd",
+          "Price": 10,
+          "Status": 1
+        },
+        {
+          "Name": "apple",
+          "SmallImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/apple.jpeg",
+          "BigImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/apple.jpeg",
+          "Title": "Pink Lady Apple, each",
+          "Description": "Pink Lady Apple, each",
+          "Price": 10,
+          "Status": 1
+        },
+        {
+          "Name": "nectarines",
+          "SmallImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/nectarines.jpeg",
+          "BigImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/nectarines.jpeg",
+          "Title": "Yellow Nectarines, each",
+          "Description": "In-store purchase only",
+          "Price": 10,
+          "Status": 1
+        },
+        {
+          "Name": "strawberries",
+          "SmallImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/strawberries.jpeg",
+          "BigImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/strawberries.jpeg",
+          "Title": "Fresh Strawberries, 2 lb",
+          "Description": "In-store purchase only",
+          "Price": 10,
+          "Status": 1
+        },
+        {
+          "Name": "lemon",
+          "SmallImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/lemon.jpeg",
+          "BigImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/lemon.jpeg",
+          "Title": "Lemons, each",
+          "Description": "In-store purchase only, Pickup not available",
+          "Price": 10,
+          "Status": 1
+        },
+        {
+          "Name": "oranges",
+          "SmallImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/oranges.jpeg",
+          "BigImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/oranges.jpeg",
+          "Title": "Navel Oranges, each",
+          "Description": "In-store purchase only",
+          "Price": 10,
+          "Status": 1
+        },
+        {
+          "Name": "mangos",
+          "SmallImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/mangos.jpeg",
+          "BigImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/mangos.jpeg",
+          "Title": "Mangoes, each",
+          "Description": "In-store purchase only",
+          "Price": 10,
+          "Status": 1
+        }
+      ]
+    },
+    {
+      "Name": "Vegetables",
+      "Products": [
+        {
+          "Name": "Tomato",
+          "SmallImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/tomato.jpeg",
+          "BigImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/tomato.jpeg",
+          "Title": "Tomatoes on the Vine",
+          "Description": "Ingredients: TOMATOES, RED, RIPE, RAW, YEAR ROUND AVERAGE",
+          "Price": 5,
+          "Status": 1
+        },
+        {
+          "Name": "Cucumber",
+          "SmallImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/cocumber.jpeg",
+          "BigImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/cocumber.jpeg",
+          "Title": "Straight Eight Heirloom",
+          "Description": "Straight Eight Heirloom Great Heirloom Vegetable 150 Seeds",
+          "Price": 5,
+          "Status": 1
+        },
+        {
+          "Name": "pepper",
+          "SmallImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/pepper.jpeg",
+          "BigImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/pepper.jpeg",
+          "Title": "Pepper, each",
+          "Description": "In-store purchase only",
+          "Price": 10,
+          "Status": 1
+        },
+        {
+          "Name": "asparagus",
+          "SmallImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/asparagus.jpeg",
+          "BigImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/asparagus.jpeg",
+          "Title": "Asparagus, each",
+          "Description": "In-store purchase only",
+          "Price": 10,
+          "Status": 1
+        },
+        {
+          "Name": "lettuce",
+          "SmallImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/lettuce.jpeg",
+          "BigImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/lettuce.jpeg",
+          "Title": "Lettuce, each",
+          "Description": "In-store purchase only",
+          "Price": 10,
+          "Status": 1
+        },
+        {
+          "Name": "baby-carrots",
+          "SmallImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/baby-carrots.jpeg",
+          "BigImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/baby-carrots.jpeg",
+          "Title": "Baby Carrots, each",
+          "Description": "In-store purchase only",
+          "Price": 10,
+          "Status": 1
+        },
+        {
+          "Name": "potatoes",
+          "SmallImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/potatoes.jpeg",
+          "BigImage": "https://s3.eu-central-1.amazonaws.com/db-apps-bucket1/Images/potatoes.jpeg",
+          "Title": "Potatoes, each",
+          "Description": "In-store purchase only",
+          "Price": 10,
+          "Status": 1
+        }
+      ]
+    }
+]

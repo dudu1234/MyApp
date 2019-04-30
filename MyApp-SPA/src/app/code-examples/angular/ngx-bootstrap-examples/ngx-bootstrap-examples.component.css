@@ -1,0 +1,30 @@
+::ng-deep .ngx-gallery-thumbnail.ngx-gallery-active {
+  border: 2px solid lightgray;
+}
+
+ngx-gallery ::ng-deep .ngx-gallery-arrow {
+  background-color: transparent;
+  color: black;
+  opacity: 70;
+}
+
+ngx-gallery ::ng-deep ngx-gallery-image .ngx-gallery-arrow {
+  
+}
+ngx-gallery ::ng-deep ngx-gallery-thumbnails .ngx-gallery-arrow {
+  
+}
+ngx-gallery ::ng-deep ngx-gallery-preview .ngx-gallery-arrow {
+  
+}
+ngx-gallery ::ng-deep ngx-gallery-image {
+  
+}
+
+hr {
+  border: none;
+  height: 3px;
+  /* Set the hr color */
+  color: #333; /* old IE */
+  background-color: #333; /* Modern Browsers */
+}

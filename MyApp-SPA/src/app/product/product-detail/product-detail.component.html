@@ -1,0 +1,14 @@
+<div class="container mt-4">
+  <div class="row">
+    <div class="wrapper">
+      <div class="box image-box">
+          <img src="{{product.bigImage}}" alt="{{product.name}}" class="card-img-top"></div>
+      <div class="box title-box">{{product.title}}</div>
+      <div class="box price-box">{{product.price | currency}}</div>
+      <div class="box details-box">{{product.description}}</div>
+      <div class="box actions-box">
+          <button class="btn-success cart-plus"><i class="fa fa-cart-plus fa-fw"></i>Add to List</button>
+      </div>
+    </div>
+  </div>  
+</div>

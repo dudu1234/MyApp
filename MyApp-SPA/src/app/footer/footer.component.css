@@ -1,0 +1,9 @@
+.navbar {
+    height: 30px;
+    padding: 0;
+    background-color: darkgrey;
+}
+
+.navbar-text {
+    padding: 0;
+}

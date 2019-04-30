@@ -1,0 +1,28 @@
+<div class="container">
+  <h1>Aws Examples</h1>
+
+  <hr />
+  <h3>
+    <a href="https://aws.amazon.com/sdk-for-net/" target="_blank">Install AWS SDK</a>
+  </h3>
+  <h3>
+    <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/RetrievingObjectUsingNetSDK.html" target="_blank"
+      >Get an Object Using the AWS SDK for .NET</a
+    >
+  </h3>
+  <div>
+    <div>
+      <form>
+        <div>
+          <input type="text" [(ngModel)]="bucketName" name="bucketName" />
+          <button (click)="getFiles()">Get files in S3 bucket</button>
+          <button (click)="clear()">Clear</button>
+        </div>
+        <div>
+          <textarea [(ngModel)]="responseText" name="responseText"></textarea>
+        </div>
+      </form>
+    </div>
+  </div>
+  <hr />
+</div>

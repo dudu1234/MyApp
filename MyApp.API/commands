@@ -1,0 +1,17 @@
+
+-- run api server + watch changes
+dotnet watch run
+dotnet build
+
+-- create db from code
+dotnet ef database drop
+remove migrations directory
+dotnet ef migrations add initialDbBlaBla
+dotnet ef database update
+uncomment "seeder.SeedUsers();"
+dotnet watch run
+stop
+comment the "seeder.SeedUsers();"
+
+-- run client server
+ng serve

@@ -1,0 +1,16 @@
+breadcrumb {
+    position: fixed;
+    top: 56px;
+    right: 0;
+    left: 0;
+    z-index: 1020;    
+}
+
+breadcrumb ::ng-deep div.container {
+    margin: 0;
+}
+
+.app-body {
+    padding-top: 80px;
+    padding-bottom: 30px;
+}

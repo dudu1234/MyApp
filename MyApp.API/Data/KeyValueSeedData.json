@@ -1,0 +1,22 @@
+[
+    {
+      "Category": "Countries",
+      "Key": "1",
+      "Value": "Israel"
+    },
+    {
+      "Category": "Countries",
+      "Key": "2",
+      "Value": "United State"
+    },
+    {
+      "Category": "Cities",
+      "Key": "1",
+      "Value": "Ramat Gan"
+    },
+    {
+      "Category": "Cities",
+      "Key": "2",
+      "Value": "Tel Aviv"
+    }
+  ]

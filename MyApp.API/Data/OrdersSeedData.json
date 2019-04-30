@@ -1,0 +1,19 @@
+[
+    {
+      "DateCreated": "2017-08-02",
+      "DateUpdated": "2017-08-02",
+      "Status": 1,
+      "TotalAmount": 170,
+      "OrderItems": [
+        {
+          "Quantity": 2
+        },
+        {
+          "Quantity": 3
+        },
+        {
+          "Quantity": 4
+        }
+      ]
+    }
+]

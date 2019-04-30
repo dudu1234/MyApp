@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="btn-group" role="group" aria-label="Product Categories">
+    <button
+      type="button"
+      class="btn btn-outline-dark"
+      *ngFor="let productCategory of productCategories"
+      (click)="loadByCategory(productCategory.id)"
+      [class.active]="selectedCategory === productCategory.id"
+    >
+      {{ productCategory.name }}
+    </button>
+  </div>
+</div>
+<div class="row product-cards">
+  <div *ngFor="let product of products" class="products-wrapper">
+    <app-product-card
+      [product]="product"
+      class="product-box"
+    ></app-product-card>
+  </div>
+</div>

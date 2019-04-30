@@ -1,0 +1,12 @@
+div.page {
+  margin: 32px;
+}
+
+.product-list {
+    margin-top: 20px;
+}
+
+.searchTest {
+    border-radius: 4px;
+    margin-inline-end: 16px;
+}

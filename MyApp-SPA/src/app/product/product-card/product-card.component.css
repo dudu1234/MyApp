@@ -1,0 +1,87 @@
+::ng-deep :root {
+  --image-width: 200px;
+  --image-height: 200px;
+  --title-height: 50px;
+}
+
+.card:hover img {
+  transform: scale(1.1, 1.1);
+  transition-duration: 500ms;
+  transition-timing-function: ease-out;
+  opacity: 0.9;
+}
+
+.card img {
+  transform: scale(1, 1);
+  transition-duration: 500ms;
+  transition-timing-function: ease-out;
+
+  height: var(--image-height);
+  width: var(--image-width);
+  cursor: pointer;
+}
+
+.card-img-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.member-icons {
+  position: absolute;
+  bottom: -30%;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  opacity: 0;
+  cursor: default;
+}
+
+.card-img-wrapper:hover .member-icons {
+  bottom: 0;
+  opacity: 1;
+}
+
+.card-img-wrapper .member-icons button {
+  bottom: 0;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.card-img-wrapper .list-inline-item button {
+  margin-right: 7px;
+  margin-left: 7px;
+  transform: scale(1, 1);
+  transition-duration: 500ms;
+  transition-timing-function: ease-out;
+  opacity: 0.9;
+}
+
+button.cart-plus,
+.fa-cart-plus {
+  border-color: green;
+  background: limegreen;
+}
+
+button.trash,
+.fa-trash {
+  border-color: red;
+  background: tomato;
+}
+
+.card-img-wrapper .list-inline-item button:hover {
+  transform: scale(1.1, 1.1);
+  transition-duration: 500ms;
+  transition-timing-function: ease-out;
+  opacity: 1;
+}
+
+.card .card-body p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.animate {
+  transition: all 0.3s ease-in-out;
+}

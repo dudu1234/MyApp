@@ -1,0 +1,34 @@
+[
+    {
+      "Username": "bob",
+      "UserType": 1,
+      "Gender": 1,
+      "DateOfBirth": "1994-02-21",
+      "Password": "password",
+      "DateCreated": "2017-08-02",
+      "LastActive": "2017-08-02",
+      "Introduction": "I'm bob\r\n",
+      "Phone": "03-6666666",
+      "Email": "a@a.com",
+      "Address": "רחוב ארלוזורוב 31/3",
+      "City": "Ramat Gan",
+      "Country": "Israel",
+      "LastOrder": null
+    },
+    {
+      "Username": "dudu",
+      "UserType": 3,
+      "Gender": 1,
+      "DateOfBirth": "1994-02-21",
+      "Password": "password",
+      "DateCreated": "2017-08-02",
+      "LastActive": "2017-08-02",
+      "Introduction": "I'm dudu\r\n",
+      "Phone": "03-6666666",
+      "Email": "a@a.com",
+      "Address": "רחוב ארלוזורוב 31/3",
+      "City": "Ramat Gan",
+      "Country": "Israel",
+      "LastOrder": null
+    }
+  ]
